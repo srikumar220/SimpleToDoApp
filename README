@@ -1,0 +1,10 @@
+SimpleToDoApp
+
+Meets all the requirements for the first project specified.
+
+Additional Changes
+------------------
+* Uses a SQLite Database to save the ToDoLists.
+* ToDoItem is made into a parcelable javabean that reflects the ToDoItem.
+* Even though the ToDoItem has attribtues like status, priority and eta only the itemText gets saved to the DB.
+
