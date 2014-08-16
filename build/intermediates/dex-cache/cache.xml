@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/srikumarp/AndroidStudioProjects/SimpleToDoApp/app/build/intermediates/pre-dexed/debug/commons-io-2.4-ede4b307b35957d55a3c49f8f8912e25c4b6e4d1.jar"
+        jar="/Users/srikumarp/AndroidStudioProjects/SimpleToDoApp/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+
+</pre-dex-items>

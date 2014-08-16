@@ -13,9 +13,9 @@ In addition I introduced the following features
 -----------------------------------------------
 * Uses a SQLite Database instead of the filesystem to save the To Do List items.
 * ToDoItem is made into a Parcelable javabean so that it is more efficient to pass them as Intent extras
-* ToDoItem has attribtues like status, priority and eta (Only the itemText is saved to the database, but database has 
-  columns to store other these attribtues)
+* ToDoItem has attribtues like status, priority and eta (Only the itemText is saved to the database for now, 
+  but database has columns to store other these attribtues)
 
 
-SimpleToDoApp.gif file has walks thru the completed stores.
+SimpleToDoApp.gif walks thru the completed stores.
 

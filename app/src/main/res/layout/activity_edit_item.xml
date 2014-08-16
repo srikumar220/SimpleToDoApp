@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.codepath.simpletodoapp.EditItemActivity">
+
+    <TextView
+        android:id="@+id/tvEditItemLabel"
+        android:text="@string/edit_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEditItemLabel"
+        android:layout_alignLeft="@id/tvEditItemLabel"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10">
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etItem"
+        android:layout_alignLeft="@id/tvEditItemLabel"
+        android:layout_marginTop="10dp"
+        android:text="@string/save"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
