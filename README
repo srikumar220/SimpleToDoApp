@@ -1,10 +1,21 @@
 SimpleToDoApp
+==============
+Meets all the requirements for the Simple ToDo app project specified.
 
-Meets all the requirements for the first project specified.
-
-Additional Changes
+Completed features:
 ------------------
-* Uses a SQLite Database to save the ToDoLists.
-* ToDoItem is made into a parcelable javabean that reflects the ToDoItem.
-* Even though the ToDoItem has attribtues like status, priority and eta only the itemText gets saved to the DB.
+* Adding a ToDo Item.
+* Deleting a ToDo Item with Long click.
+* Editing a ToDo Item with Click.
+* Edited ToDo Item wil be stored in the datastore.
+
+In addition I introduced the following features
+-----------------------------------------------
+* Uses a SQLite Database instead of the filesystem to save the To Do List items.
+* ToDoItem is made into a Parcelable javabean so that it is more efficient to pass them as Intent extras
+* ToDoItem has attribtues like status, priority and eta (Only the itemText is saved to the database, but database has 
+  columns to store other these attribtues)
+
+
+SimpleToDoApp.gif file has walks thru the completed stores.
 
